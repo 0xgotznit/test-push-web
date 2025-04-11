@@ -9,5 +9,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async></script>
+    <script>
+    window.WonderPush = window.WonderPush || [];
+    WonderPush.push(["init", {
+        webKey: "c5e29bc9ee5fb4166869d95c19606ff459e6c9b2dc7b87044c9d3e35693f2947",
+    }]);
+    </script>
   </body>
 </html>
